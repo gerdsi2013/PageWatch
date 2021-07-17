@@ -1,0 +1,31 @@
+@media screen and (max-width:850px){
+
+
+    main{
+        height:100%;
+    }
+    .container-child{
+    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-child-rigth{
+        margin-top: 2rem;
+        padding-right: 0;
+
+        h2{
+            width:100%;
+            text-align: center;
+        }
+        .form{
+            width:100%;
+        }
+    }   
+}
+@media screen and (max-width:500px){
+    .container-child-left{
+        padding: 0 2rem;
+    }
+}
