@@ -1,10 +1,13 @@
 import { React, useState } from "react";
 import "../stylo/index.scss";
 import "../stylo/response.scss";
-import {Footer} from '../../componets/footer/index'
-//import {Card} from '../../componets/card'
+import { Footer } from "../../componets/footer/index";
+import { Card } from "../../componets/card";
 
-import {Relogio} from '../../../src/componets/card/assests/pexels-photo-128206.jpeg'
+import RelogioCasual from "../../componets/card/assests/pexels-castorly-stock-3829441.jpg";
+
+import RelogioElegante from "../../componets/card/assests/pexels-castorly-stock-3829446.jpg";
+import Relogiosofesticado from "../../componets/card/assests/pexels-jpgshow-7846098.jpg";
 
 export function Home() {
   const [name, setname] = useState("");
@@ -14,7 +17,6 @@ export function Home() {
     localStorage.setItem("Name", name);
     localStorage.setItem("Email", email);
   };
-
   return (
     <main>
       <header>
@@ -67,12 +69,29 @@ export function Home() {
         </section>
 
 
-      <section className="last-child-rigth">
-          
-          <img src={Relogio} alt="relogio" title="relogio"/>
-                              
-      </section>
+      
+          <section className="last-child-rigth">
 
+
+            <div className="section-one">
+              <h2>Lançamentos</h2>
+            </div>
+
+                <div className="card">       
+          <Card>
+          
+            <img src={RelogioCasual} alt="relogio casual"/>
+          </Card>
+          <Card>
+            <img src={RelogioElegante} alt="relogio elegante"/>
+          </Card>
+
+          <Card>
+            <img src={Relogiosofesticado} alt="relogio casual"/>
+          </Card>
+          </div>
+          </section>
+      
       </div>
 
       <Footer></Footer>

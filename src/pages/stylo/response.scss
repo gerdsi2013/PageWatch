@@ -1,21 +1,26 @@
 @media screen and (max-width:850px){
+    .last-child-rigth{
+        height:100%;
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width:850px){
 
 
     main{
         height:100%;
     }
     .container-child{
-     
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
-        
     }
 
     .container-child-rigth{
        order:3;
-        
         margin-top: 2rem;
         padding-right: 0;
 
@@ -32,11 +37,14 @@
         order:1;
     }
 
-
-
     .last-child-rigth{
         flex-direction: column;
+
+        .card{
+            flex-direction: column;
+        }
     }
+
 }
 
 
