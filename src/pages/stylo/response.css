@@ -1,0 +1,35 @@
+@media screen and (max-width: 850px) {
+  main {
+    height: 100%;
+  }
+  .container-child {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-child-rigth {
+    margin-top: 2rem;
+    padding-right: 0;
+  }
+  .container-child-rigth h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .container-child-rigth .form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container-child-left {
+    padding: 0 2rem;
+  }
+}
+/*# sourceMappingURL=response.css.map */
