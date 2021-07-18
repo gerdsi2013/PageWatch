@@ -5,13 +5,17 @@
         height:100%;
     }
     .container-child{
-    
+     
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+        
     }
 
     .container-child-rigth{
+       order:3;
+        
         margin-top: 2rem;
         padding-right: 0;
 
@@ -23,7 +27,20 @@
             width:100%;
         }
     }   
+
+    .last-child-rigth{
+        order:1;
+    }
+
+
+
+    .last-child-rigth{
+        flex-direction: column;
+    }
 }
+
+
+
 @media screen and (max-width:500px){
     .container-child-left{
         padding: 0 2rem;
