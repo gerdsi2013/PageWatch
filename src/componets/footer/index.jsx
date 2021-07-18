@@ -23,7 +23,7 @@ export function Footer() {
           <FiTwitter className="rede-socias" />
         </a>
       </div>
-      <p> 2021 &copy; Todos os Direitos Resevados.</p>
+      <p> 2021 &copy; Todos os Direitos Reservados.</p>
       <p>
         Desenvolvido por <span> Gerdivaldo</span>{" "}
       </p>
