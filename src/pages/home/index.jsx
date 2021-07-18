@@ -5,7 +5,6 @@ import { Footer } from "../../componets/footer/index";
 import { Card } from "../../componets/card";
 
 import RelogioCasual from "../../componets/card/assests/pexels-castorly-stock-3829441.jpg";
-
 import RelogioElegante from "../../componets/card/assests/pexels-castorly-stock-3829446.jpg";
 import Relogiosofesticado from "../../componets/card/assests/pexels-jpgshow-7846098.jpg";
 
@@ -33,7 +32,7 @@ export function Home() {
           <h2>
             <span className="text-color">Prepare-se</span> para melhor
             <span className="text-friday"> Black Friday </span>de todos os
-            <span className="text-color"> Tempos</span>{" "}
+            <span className="text-color"> Tempos</span>
           </h2>
           <ul>
             <li>Melhores marcas, com preços imperdivéis!</li>
@@ -68,30 +67,23 @@ export function Home() {
           </form>
         </section>
 
-
-      
-          <section className="last-child-rigth">
-
-
-            <div className="section-one">
-              <h2>Lançamentos</h2>
-            </div>
-
-                <div className="card">       
-          <Card>
-          
-            <img src={RelogioCasual} alt="relogio casual"/>
-          </Card>
-          <Card>
-            <img src={RelogioElegante} alt="relogio elegante"/>
-          </Card>
-
-          <Card>
-            <img src={Relogiosofesticado} alt="relogio casual"/>
-          </Card>
+        <section className="last-child-rigth">
+          <div className="section-one">
+            <h2>Lançamentos</h2>
           </div>
-          </section>
-      
+
+          <div className="card">
+            <Card>
+              <img src={RelogioCasual} alt="relogio casual" />
+            </Card>
+            <Card>
+              <img src={RelogioElegante} alt="relogio elegante" />
+            </Card>
+            <Card>
+              <img src={Relogiosofesticado} alt="relogio casual" />
+            </Card>
+          </div>
+        </section>
       </div>
 
       <Footer></Footer>
